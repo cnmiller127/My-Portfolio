@@ -79,6 +79,10 @@ footer{
   line-height: 2;
   vertical-align: top;
 }
+.about-link{
+  display: block;
+  text-decoration: underline;
+}
 
 
 /* Needed to use media queries for responsive floated image in index */

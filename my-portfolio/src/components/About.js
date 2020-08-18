@@ -24,8 +24,8 @@ return (
 
                         <p class="line-height"> Christian's has experience using HTML, Javascript, CSS, Python, Node.js, Express.js, React.js, MongoDB, SQL, and is excited about learning new languages. </p>
                         <p class="line-height"> Before entering the Technology industry, Christian worked as a Petroleum Field Engineer in Texas and Pennsylvania.  </p>
-                        <a href = "https://linkedin.com/in/christian-miller-1b8194125"> LinkedIn Profile </a>
-                        <a href = "https://github.com/cnmiller127"> Github Profile </a>
+                        <a href = "https://linkedin.com/in/christian-miller-1b8194125" className = "about-link"> LinkedIn Profile </a>
+                        <a href = "https://github.com/cnmiller127" className = "about-link"> Github Profile </a>
 
                         
                     </div>
