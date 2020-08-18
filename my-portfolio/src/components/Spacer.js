@@ -3,7 +3,7 @@ import React from "react";
 function Spacer(){
 
     return(
-        <div class= "row spacer"></div> 
+        <div className= "row spacer"></div> 
     )
 }
 
