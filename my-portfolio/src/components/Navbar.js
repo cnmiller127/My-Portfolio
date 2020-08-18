@@ -10,9 +10,9 @@ function Navbar(){
     <nav class="navbar navbar-expand navbar-light col-lg-9 col-md-8 col-sm-12 justify-content-md-end justify-content-center">
           <div className="navbar-nav pr-md-3">
               
-            <a className="nav-item nav-link px-3" href="/#/about">About </a>
-            <a className="nav-item nav-link px-3" href="/#/portfolio">Portfolio </a>
-            <a className="nav-item nav-link px-3" href="/#/contact">Contact </a>
+            <a className="nav-item nav-link px-3" href="/My-Portfolio/#/about">About </a>
+            <a className="nav-item nav-link px-3" href="/My-Portfolio/#/portfolio">Portfolio </a>
+            <a className="nav-item nav-link px-3" href="/My-Portfolio/#/contact">Contact </a>
         
           </div>
       </nav>
