@@ -1,3 +1,3 @@
 # My-Portfolio
 
-[link](https://cnmiller127.github.io/My-Portfolio/#/portfolio)
+[Click here](https://cnmiller127.github.io/My-Portfolio/#/portfolio) to visit my portfolio.
