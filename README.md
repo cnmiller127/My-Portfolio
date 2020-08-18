@@ -1,3 +1,3 @@
 # My-Portfolio
 
-![link](https://cnmiller127.github.io/My-Portfolio/#/portfolio)
+[link](https://cnmiller127.github.io/My-Portfolio/#/portfolio)
