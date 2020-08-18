@@ -63,8 +63,8 @@ return (
                 
                 <div className="row no-gutters">
                     <div className="col-12 col-md-6 p-3">
-                        <a href={employees}>
-                                <img src= "https://via.placeholder.com/200x150" className="img-portfolio"/>
+                        <a href= "https://cnmiller127.github.io/Employee-Directory/" >
+                                <img src= {employees} className="img-portfolio"/>
                                 <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                                     <span>Employee Directory (React)</span>
                                 </div>
@@ -72,7 +72,7 @@ return (
                     </div>
                     <div className="col-12 col-md-6 p-3">
                         <a href="https://rock-trader-2020.herokuapp.com/">
-                                <img src= "https://via.placeholder.com/200x150" className="img-portfolio"/>
+                                <img src= {rock} className="img-portfolio"/>
                                 <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                                     <span>Rock Trader</span>
                                 </div>
