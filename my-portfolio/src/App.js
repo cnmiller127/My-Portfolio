@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Route } from "react-router-dom";
+import { Router as Router, Route } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import About from "./components/About";
 import Portfolio from "./components/Portfolio";
@@ -16,9 +16,9 @@ function App() {
       <div className = "container-fluid m-0 p-0 bg">
         <Navbar />
         <Route exact path="/" component={Portfolio} />
-        <Route exact path="/My-Portfolio/#//about" component={About} />
-        <Route exact path="/My-Portfolio/#/Portfolio" component={Portfolio} />
-        <Route exact path="/My-Portfolio/#/Contact" component={Contact} />
+        <Route exact path="/about" component={About} />
+        <Route exact path="/portfolio" component={Portfolio} />
+        <Route exact path="/contact" component={Contact} />
         <Spacer/>
         <Footer/>
       </div>
