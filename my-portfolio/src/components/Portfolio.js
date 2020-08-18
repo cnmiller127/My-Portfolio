@@ -3,6 +3,8 @@ import wthr from "../images/wthr.png";
 import date from "../images/date.png";
 import quiz from "../images/quiz.png";
 import fitness from "../images/fitness.png";
+import employees from "../images/employees.png";
+import rock from "../images/rock.png";
 
 function Portfolio(){
 return (
@@ -61,7 +63,7 @@ return (
                 
                 <div className="row no-gutters">
                     <div className="col-12 col-md-6 p-3">
-                        <a href="https://cnmiller127.github.io/Employee-Directory/">
+                        <a href={employees}>
                                 <img src= "https://via.placeholder.com/200x150" className="img-portfolio"/>
                                 <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                                     <span>Employee Directory (React)</span>
