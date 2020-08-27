@@ -3,7 +3,7 @@ import wthr from "../images/wthr.png";
 import date from "../images/date.png";
 import quiz from "../images/quiz.png";
 import fitness from "../images/fitness.png";
-import employees from "../images/employees.png";
+import employees from "../images/employees.PNG";
 import rock from "../images/rock.png";
 
 function Portfolio(){

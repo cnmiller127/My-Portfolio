@@ -1,4 +1,5 @@
 import React from "react";
+import me from "../images/me.png";
 
 function Home(){
 
@@ -17,7 +18,7 @@ return (
 
                 <div class="row no-gutters">
                     <div class="col-12 px-3">
-                        <img src= "https://via.placeholder.com/150x150"  class="img-index float-left py-2 pr-md-3"/>
+                        <img src= {me}  className="img-index float-left me-img my-2 mr-md-3"/>
                     
                     
                         <p class="pb-1 line-height"> Christian Miller is originally from Boston, Massachusetts. His interests include coding, baseball, hockey, music, and playing the drums.  </p>
