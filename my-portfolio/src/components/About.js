@@ -11,7 +11,7 @@ return (
 
         <div class= "row no-gutters">
             <div class= "col-12 px-3 pt-3">
-                <h2 class ="bg-white text-dark">About Me</h2>
+                <h2 class ="bg-white text-dark">About</h2>
                 <hr class="bold"/>
             </div>
         </div>
