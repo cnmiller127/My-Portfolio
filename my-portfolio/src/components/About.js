@@ -1,5 +1,7 @@
 import React from "react";
 import me from "../images/me.png";
+import linkedInLogo from "../images/linkedIn.png";
+import gitHubLogo from "../images/gitHub.png";
 
 function Home(){
 
@@ -24,9 +26,9 @@ return (
                         <p class="pb-1 line-height"> Christian Miller is originally from Boston, Massachusetts. His interests include coding, baseball, hockey, music, and playing the drums.  </p>
 
                         <p class="line-height"> Christian has experience using HTML, Javascript, CSS, Python, Node.js, Express.js, React.js, MongoDB, SQL, and is excited about learning new languages. </p>
-                        <p class="line-height"> Before entering the Technology industry, Christian worked as a Petroleum Field Engineer in Texas and Pennsylvania.  </p>
-                        <a href = "https://linkedin.com/in/christian-miller-1b8194125" className = "about-link"> LinkedIn Profile </a>
-                        <a href = "https://github.com/cnmiller127" className = "about-link"> Github Profile </a>
+                        <p class="line-height"> Before entering the tech industry, Christian worked as a Petroleum Field Engineer in Texas and Pennsylvania.  </p>
+                        <a href = "https://linkedin.com/in/christian-miller-1b8194125" className = "about-link px-1" ><img className = "logos" src = {linkedInLogo} alt = "LinkedIn Profile"></img> </a>
+                        <a href = "https://github.com/cnmiller127" className = "about-link px-1"><img className = "logos" src = {gitHubLogo} alt = "GitHub Profile"></img></a>
 
                         
                     </div>

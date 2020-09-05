@@ -83,8 +83,7 @@ footer{
   vertical-align: top;
 }
 .about-link{
-  display: block;
-  text-decoration: underline;
+  display: inline;
 }
 .me-img{
   width: 35%;
@@ -92,6 +91,10 @@ footer{
   border-style: solid;
   border-radius: 50%;
 
+}
+.logos{
+  width: 30px;
+  height: auto;
 }
 
 

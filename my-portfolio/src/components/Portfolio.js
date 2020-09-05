@@ -3,7 +3,7 @@ import wthr from "../images/wthr.png";
 import date from "../images/date.png";
 import quiz from "../images/quiz.png";
 import fitness from "../images/fitness.png";
-import employees from "../images/employees.PNG";
+import movie from "../images/movie.PNG";
 import rock from "../images/rock.png";
 
 function Portfolio(){
@@ -45,14 +45,14 @@ return (
                         <a href="https://cnmiller127.github.io/DinnerDateGenerator/">
                                 <img src= {date} width = "200" height="150" className="img-portfolio"/>
                                 <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
-                                    <span>Team Project: Date Night Generator</span>
+                                    <span>Date Night Generator</span>
                                 </div>
                         </a>
                     </div>
                 
                 
                     <div className="col-12 col-md-6 p-3">
-                        <a href="https://cnm-2020-fitness-tracker.herokuapp.com/?id=5f313f46bcfb7f0017f47f20">
+                        <a href="https://cnm-2020-fitness-tracker.herokuapp.com/?id=5f313f46bcfb7f0017f47f20" target = "_blank">
                                 <img src= {fitness} width = "200" height="150" className="img-portfolio"/>
                                 <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                                     <span>Fitness Tracker</span>
@@ -60,24 +60,25 @@ return (
                         </a>
                     </div>
                 </div>
-                
                 <div className="row no-gutters">
-                    <div className="col-12 col-md-6 p-3">
-                        <a href= "https://cnmiller127.github.io/Employee-Directory/" >
-                                <img src= {employees} className="img-portfolio"/>
-                                <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
-                                    <span>Employee Directory (React)</span>
-                                </div>
-                        </a>
-                    </div>
-                    <div className="col-12 col-md-6 p-3">
+                <div className="col-12 col-md-6 p-3">
                         <a href="https://rock-trader-2020.herokuapp.com/">
                                 <img src= {rock} className="img-portfolio"/>
                                 <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                                     <span>Rock Trader</span>
                                 </div>
                         </a>
+                </div>            
+                
+                    <div className="col-12 col-md-6 p-3">
+                        <a href= "https://project3-movie-app-2020.herokuapp.com/" >
+                                <img src= {movie} className="img-portfolio"/>
+                                <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
+                                    <span>Movie Librarian</span>
+                                </div>
+                        </a>
                     </div>
+                 
 
                 </div>
                
