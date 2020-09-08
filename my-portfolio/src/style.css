@@ -56,7 +56,10 @@ footer{
 /* Images in grid are flex so needed to overide for responsive image. Must use block display */
 .img-portfolio{
   width: 100%;
-  height: 150px;
+  height: 100%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
 }
 /* For parent container of image so label can be positioned with respect to it */
 .overlay
@@ -68,8 +71,8 @@ footer{
 /* Need to use absolute positioing with respect to parent conatiner for image label */
 .label{
   position:absolute;
-  height: 20%;
-  bottom: 10%;
+  height: 15%;
+  bottom: 15%;
   left:0;
   right:0;
 }
@@ -94,6 +97,11 @@ footer{
 }
 .logos{
   width: 30px;
+  height: auto;
+}
+
+.drum-vid {
+  width: 100%;
   height: auto;
 }
 

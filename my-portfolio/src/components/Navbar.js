@@ -1,4 +1,6 @@
 import React from "react";
+import linkedInLogo from "../images/linkedIn.png";
+import gitHubLogo from "../images/gitHub.png";
 
 function Navbar(){
     return(
@@ -13,6 +15,8 @@ function Navbar(){
             <a className="nav-item nav-link px-3" href="/My-Portfolio/#/about">About </a>
             <a className="nav-item nav-link px-3" href="/My-Portfolio/#/portfolio">Portfolio </a>
             <a className="nav-item nav-link px-3" href="/My-Portfolio/#/contact">Contact </a>
+            <a href = "https://linkedin.com/in/christian-miller-1b8194125" className = "nav-item nav-link about-link px-3" target = "_blank" ><img className = "logos" src = {linkedInLogo} alt = "LinkedIn Profile"></img> </a>
+            <a href = "https://github.com/cnmiller127" className = "about-link px-1" target = "_blank"><img className = "logos" src = {gitHubLogo} alt = "GitHub Profile"></img></a>
         
           </div>
       </nav>

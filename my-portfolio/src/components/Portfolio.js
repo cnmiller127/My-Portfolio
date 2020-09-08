@@ -23,7 +23,7 @@ return (
                 <div className="row no-gutters">
                     {/* <!-- flex needs to be turned off for img-portfolio to function properly --> */}
                     <div className="col-12 col-md-6 p-3 overlay">
-                        <a href="https://cnmiller127.github.io/Weather-Dashboard/">
+                        <a href="https://cnmiller127.github.io/Weather-Dashboard/" target="_blank">
                             <img src= {wthr} className="img-portfolio"/>
                             <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                             <span>Weather Dashboard</span>
@@ -31,7 +31,7 @@ return (
                         </a>
                     </div>
                     <div className="col-12 col-md-6 p-3">
-                        <a href="https://cnmiller127.github.io/Coding-Quiz/">
+                        <a href="https://cnmiller127.github.io/Coding-Quiz/" target="_blank">
                             <img src= {quiz} className="img-portfolio"/>
                             <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                                 <span>Coding Quiz</span>
@@ -42,7 +42,7 @@ return (
 
                 <div className="row no-gutters">
                     <div className="col-12 col-md-6 p-3">
-                        <a href="https://cnmiller127.github.io/DinnerDateGenerator/">
+                        <a href="https://cnmiller127.github.io/DinnerDateGenerator/" target="_blank">
                                 <img src= {date} width = "200" height="150" className="img-portfolio"/>
                                 <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                                     <span>Date Night Generator</span>
@@ -61,17 +61,17 @@ return (
                     </div>
                 </div>
                 <div className="row no-gutters">
-                <div className="col-12 col-md-6 p-3">
-                        <a href="https://rock-trader-2020.herokuapp.com/">
-                                <img src= {rock} className="img-portfolio"/>
-                                <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
-                                    <span>Rock Trader</span>
-                                </div>
-                        </a>
-                </div>            
+                    <div className="col-12 col-md-6 p-3">
+                            <a href="https://rock-trader-2020.herokuapp.com/" target="_blank">
+                                    <img src= {rock} className="img-portfolio"/>
+                                    <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
+                                        <span>Rock Trader</span>
+                                    </div>
+                            </a>
+                    </div>            
                 
                     <div className="col-12 col-md-6 p-3">
-                        <a href= "https://project3-movie-app-2020.herokuapp.com/" >
+                        <a href= "https://project3-movie-app-2020.herokuapp.com/" target="_blank">
                                 <img src= {movie} className="img-portfolio"/>
                                 <div className="label bg-dark text-white mx-3 d-flex align-items-center text-center justify-content-center">
                                     <span>Movie Librarian</span>
