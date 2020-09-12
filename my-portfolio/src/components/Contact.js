@@ -17,6 +17,7 @@ function Contact(){
         
         <div className="px-3">
             <div className="form-group">
+                <p>You may reach Christian at <strong>cnmiller127@gmail.com</strong> or send a message:</p>
                 <label for="name">Name</label>
                 <input type="name" className="form-control" id="name" placeholder="John Smith" aria-describedby="Name"/>
             </div>
