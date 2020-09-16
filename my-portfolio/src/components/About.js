@@ -23,8 +23,7 @@ return (
                     <div class="col-12 px-3">
                         <img src= {me}  className="img-index float-left me-img my-2 mr-md-3"/>
                         <p class="pb-1 line-height"> Christian Miller is a full stack developer with an engineering background seeking a full time position. He recently earned a certificate from the Coding Bootcamp at UT Austin which intensively expanded his knowledge, proficiency, and experience in coding and web development. Christian's acquired critical thinking skills from his previous experience as a petroleum field engineer are highly transferable to software development. He has comprehensive time management abilities in both team and individual settings. Christian is a motivated problem solver who will troubleshoot and persevere through technical challenges. His vision is to collaborate with others to generate product success that benefits the customer experience.</p>
-                        <p class="line-height"> Christian has experience using HTML, Javascript, CSS, Python, Node.js, Express.js, React.js, MongoDB, SQL, and is excited about learning new technologies. </p>
-                        <p class="line-height"> Christian also earned a B.S in Petroleum Engineering from Penn State in 2016. </p>
+                        <p class="line-height"> Christian has experience using HTML, Javascript, CSS, Python, Node.js, Express.js, React.js, MongoDB, SQL, and is excited about learning new technologies. He also earned a B.S Degree in Petroleum Engineering from Penn State in 2016. </p>
                         <hr />
                     </div>
                 </div>
