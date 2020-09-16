@@ -1,6 +1,7 @@
 import React from "react";
 
 function Contact(){
+    sessionStorage.clear();
     return(
     <main className="row p-3 py-md-5 p-lg-5 justify-content-md-start justify-content-center no-gutters">
 

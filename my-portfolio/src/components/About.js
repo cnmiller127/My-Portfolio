@@ -2,7 +2,9 @@ import React from "react";
 import me from "../images/me.png";
 import drumming from "../images/drumming.mp4";
 
-function Home(){
+function About(){
+
+sessionStorage.clear();
 
 return (
 
@@ -44,4 +46,4 @@ return (
 )
 }
 
-export default Home;
+export default About;

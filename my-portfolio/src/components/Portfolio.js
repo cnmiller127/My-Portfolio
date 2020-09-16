@@ -10,15 +10,15 @@ function Portfolio(){
     const [selected, setSelected] = useState("0");
 
     useEffect(() => {
-        if(localStorage.getItem("val")){
-            setSelected(JSON.parse(localStorage.getItem("val")));
+        if(sessionStorage.getItem("val")){
+            setSelected(JSON.parse(sessionStorage.getItem("val")));
         }
     },[])
 
     const handleClick = (event) => {
         event.preventDefault();
         const val = event.currentTarget.value;
-        localStorage.setItem("val", JSON.stringify(val));
+        sessionStorage.setItem("val", JSON.stringify(val));
         setSelected(val);
     }
  
@@ -99,7 +99,7 @@ function Portfolio(){
                     <section className="col-12 bg-white p-3 p-lg-5"> 
                         <div className= "row no-gutters">
                             <div className= "col-12 px-3 pt-3">
-                                <h2 className ="bg-white text-dark">Virtual Movie Librarian</h2>
+                                <h2 className ="bg-white text-dark text-center">Virtual Movie Librarian</h2>
                                 <hr className="bold"/>
                             </div> 
                         </div>
@@ -115,8 +115,8 @@ function Portfolio(){
                          
                         </div>
                         <div>
-                            <p className = "mx-5 my-2"><strong>Team Project:</strong> This MERN stack app allows the user to search for movies and store them in their virtual library by format. User authentication is required in order to track unique data for each user. They can also add movies to their wish list. The team consists of Alex Crouch, Mark Yoon, Brogan Neegle, and myself.</p>
-                            <button className = "mx-5" value = "0" onClick = {handleClick}>Back</button>
+                            <p className = "mx-5 my-2"><strong>Team Project:</strong> This MERN stack app allows the user to search for movies and store them in their virtual library by format. User authentication is required in order to track unique data for each user. The user can also add movies to their wish list. The project team consisted of Alex Crouch, Mark Yoon, Brogan Neegle, and myself.</p>
+                            <button className = "mx-5 back-btn" value = "0" onClick = {handleClick}>Back</button>
                         </div>
                     </section>
             </main> 
@@ -128,7 +128,7 @@ function Portfolio(){
                     <section className="col-12 bg-white p-3 p-lg-5"> 
                         <div className= "row no-gutters">
                             <div className= "col-12 px-3 pt-3">
-                                <h2 className ="bg-white text-dark">Virtual Rock Trader</h2>
+                                <h2 className ="bg-white text-dark text-center">Virtual Rock Trader</h2>
                                 <hr className="bold"/>
                             </div> 
                         </div>
@@ -144,8 +144,8 @@ function Portfolio(){
                          
                         </div>
                         <div>
-                            <p className = "mx-5 my-2"><strong>Team Project:</strong> This full stack app allows the user to keep track of their rock collection and trade rocks with other users (user authentication required). The project uses mySQL, node.js, express routing, jQuery, HTML, and CSS.</p>
-                            <button className = "mx-5" value = "0" onClick = {handleClick}>Back</button>
+                            <p className = "mx-5 my-2"><strong>Team Project:</strong> This full stack app allows the user to keep track of their rock collection and trade rocks with other users (user authentication required). This was our second project at the Coding Bootcamp at UT Austin. The project uses mySQL, Node.js, Express route handling, jQuery, HTML, and CSS. The project team consists of Himaja Sriramaneni, Valeria Gonzalez, Aldo Patino, and myself.</p>
+                            <button className = "mx-5 back-btn" value = "0" onClick = {handleClick}>Back</button>
                         </div>
                     </section>
             </main> 
@@ -157,7 +157,7 @@ function Portfolio(){
                     <section className="col-12 bg-white p-3 p-lg-5"> 
                         <div className= "row no-gutters">
                             <div className= "col-12 px-3 pt-3">
-                                <h2 className ="bg-white text-dark">Date Night Generator</h2>
+                                <h2 className ="bg-white text-dark text-center">Date Night Generator</h2>
                                 <hr className="bold"/>
                             </div> 
                         </div>
@@ -173,8 +173,8 @@ function Portfolio(){
                          
                         </div>
                         <div>
-                            <p className = "mx-5 my-2"><strong>Team Project:</strong> This app allows the user to search for date night drinks, dinner, and music. This was the first team project of the coding bootcamp. AJAX calls were made to obtain the data. The team consisted of Andi Virgen, Marisa Diaz, and myself.</p>
-                            <button className = "mx-5" value = "0" onClick = {handleClick}>Back</button>
+                            <p className = "mx-5 my-2"><strong>Team Project:</strong> This was our first team project at the Coding Bootcamp at UT Austin. This app allows the user to choose special date night drinks, dinners, and music.  AJAX calls were made to obtain API data. The project team consists of Andi Virgen, Marisa Diaz, and myself.</p>
+                            <button className = "mx-5 back-btn" value = "0" onClick = {handleClick}>Back</button>
                         </div>
                     </section>
             </main> 
@@ -186,7 +186,7 @@ function Portfolio(){
                     <section className="col-12 bg-white p-3 p-lg-5"> 
                         <div className= "row no-gutters">
                             <div className= "col-12 px-3 pt-3">
-                                <h2 className ="bg-white text-dark">Fitness Tracker</h2>
+                                <h2 className ="bg-white text-dark text-center">Fitness Tracker</h2>
                                 <hr className="bold"/>
                             </div> 
                         </div>
@@ -202,8 +202,8 @@ function Portfolio(){
                          
                         </div>
                         <div>
-                            <p className = "mx-5 my-2"><strong>Solo Project:</strong> This fitness app allows the user to track their workouts, and follow their improvement over time. </p>
-                            <button className = "mx-5" value = "0" onClick = {handleClick}>Back</button>
+                            <p className = "mx-5 my-2"><strong>Solo Project:</strong> This fitness app allows the user to track their workouts, and follow their improvement over time. The app uses MongoDB, Node.js, Express, jQuery, HTML, and CSS. </p>
+                            <button className = "mx-5 back-btn" value = "0" onClick = {handleClick}>Back</button>
                         </div>
                     </section>
             </main> 
@@ -215,7 +215,7 @@ function Portfolio(){
                     <section className="col-12 bg-white p-3 p-lg-5"> 
                         <div className= "row no-gutters">
                             <div className= "col-12 px-3 pt-3">
-                                <h2 className ="bg-white text-dark">Weather App</h2>
+                                <h2 className ="bg-white text-dark text-center">Weather Dashboard</h2>
                                 <hr className="bold"/>
                             </div> 
                         </div>
@@ -231,8 +231,8 @@ function Portfolio(){
                          
                         </div>
                         <div>
-                            <p className = "mx-5 my-2"><strong>Solo Project:</strong> This weather app allows the user to search for the current weather as well as 5-day forecast in their area. The app utilizes the open weather API. </p>
-                            <button className = "mx-5" value = "0" onClick = {handleClick}>Back</button>
+                            <p className = "mx-5 my-2"><strong>Solo Project:</strong> This weather app allows the user to search for the current weather as well as 5-day forecast in their area. The app utilizes the open-weather API. </p>
+                            <button className = "mx-5 back-btn" value = "0" onClick = {handleClick}>Back</button>
                         </div>
                     </section>
             </main> 
@@ -244,7 +244,7 @@ function Portfolio(){
                     <section className="col-12 bg-white p-3 p-lg-5"> 
                         <div className= "row no-gutters">
                             <div className= "col-12 px-3 pt-3">
-                                <h2 className ="bg-white text-dark">Coding Quiz</h2>
+                                <h2 className ="bg-white text-dark text-center">Coding Quiz</h2>
                                 <hr className="bold"/>
                             </div> 
                         </div>
@@ -261,7 +261,7 @@ function Portfolio(){
                         </div>
                         <div>
                             <p className = "mx-5 my-2"><strong>Solo Project:</strong> This is a brief quiz on basic coding concepts. The quiz is timed, and removes 10 seconds from the clock when questions are answered incorrectly. It uses JavaScript, HTML, and CSS. </p>
-                            <button className = "mx-5" value = "0" onClick = {handleClick}>Back</button>
+                            <button className = "mx-5 back-btn" value = "0" onClick = {handleClick}>Back</button>
                         </div>
                     </section>
             </main> 
