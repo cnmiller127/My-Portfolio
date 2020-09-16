@@ -4,7 +4,7 @@ import gitHubLogo from "../images/gitHub.png";
 
 function Navbar(){
     return(
-        <header className="row bg-white pl-md-3 pl-lg-5  no-gutters">
+        <header className="row sect pl-md-3 pl-lg-5  no-gutters">
            
         <name className="col-lg-3 col-md-4 col-12 text-center p-0  "> 
         <h3 className ="m-auto bg-dark text-white head-text py-3">Christian Miller</h3>

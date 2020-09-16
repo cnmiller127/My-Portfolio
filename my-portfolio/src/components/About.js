@@ -10,11 +10,11 @@ return (
 
 <main class="row p-3 py-md-5 p-lg-5 justify-content-md-start justify-content-center no-gutters">
 
-    <section class="col-xl-8 col-lg-10 col-md-12 bg-white p-3">
+    <section class="col-xl-8 col-lg-10 col-md-12 p-3 sect">
 
         <div class= "row no-gutters">
             <div class= "col-12 px-3 pt-3">
-                <h2 class ="bg-white text-dark">About</h2>
+                <h2 class ="text-dark">About</h2>
                 <hr class="bold"/>
             </div>
         </div>

@@ -15,7 +15,11 @@
     font-size: 30px;
     letter-spacing: 2px;
   }
-
+.project-label{
+  height: 20%;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1.5px;
+}
 /* use overflow hidden to accomdate for larger row since container has default padding */
 .container-fluid{
   height:100%;
@@ -45,7 +49,7 @@ footer{
 }
 
 .bold{
-  border-top: 3px solid  lightgray;
+  border-top: 3px solid  black;
 }
 /* Adds right border for nav links for organization */
 .nav-link{
@@ -53,13 +57,25 @@ footer{
   padding: 0 0 0 0;
   
 }
-/* Images in grid are flex so needed to overide for responsive image. Must use block display */
+
 .img-portfolio{
-  width: 100%;
-  height: 100%;
+  display: block;
+  height: 80%;
   border-style: solid;
-  border-width: 2px;
   border-color: black;
+  border-width: 0.5px;
+}
+.proj-border {
+  border-style: solid;
+  border-width: 0.5px;
+  border-color:black;
+}
+.card {
+  height: 100%;
+  width: 100%;
+}
+.sect {
+  background-color:seashell
 }
 /* For parent container of image so label can be positioned with respect to it */
 .overlay
@@ -107,6 +123,12 @@ footer{
 .project-btn {
   width:100%;
   height: 100%;
+  border-style: solid;
+  border-width: 0.1px;
+  border-color:lightgray;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 .back-btn {
   outline: auto;

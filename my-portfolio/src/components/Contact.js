@@ -5,12 +5,12 @@ function Contact(){
     return(
     <main className="row p-3 py-md-5 p-lg-5 justify-content-md-start justify-content-center no-gutters">
 
-    <form className="col-xl-6 col-lg-8 col-md-12 bg-white p-3">
+    <form className="col-xl-6 col-lg-8 col-md-12 p-3 sect">
         
         
         <div className= "row no-gutters">
             <div className= "col-12 px-3 pt-3">
-                <h2 className ="bg-white text-dark">Contact</h2>
+                <h2 className ="text-dark">Contact</h2>
                 <hr className="bold"/>
             </div>
             
