@@ -1,18 +1,20 @@
 {
   "files": {
-    "main.css": "/My-Portfolio/static/css/main.aa877290.chunk.css",
-    "main.js": "/My-Portfolio/static/js/main.7a96f68d.chunk.js",
-    "main.js.map": "/My-Portfolio/static/js/main.7a96f68d.chunk.js.map",
+    "main.css": "/My-Portfolio/static/css/main.96679e9c.chunk.css",
+    "main.js": "/My-Portfolio/static/js/main.2bff01b2.chunk.js",
+    "main.js.map": "/My-Portfolio/static/js/main.2bff01b2.chunk.js.map",
     "runtime-main.js": "/My-Portfolio/static/js/runtime-main.2dca773a.js",
     "runtime-main.js.map": "/My-Portfolio/static/js/runtime-main.2dca773a.js.map",
-    "static/js/2.30af1967.chunk.js": "/My-Portfolio/static/js/2.30af1967.chunk.js",
-    "static/js/2.30af1967.chunk.js.map": "/My-Portfolio/static/js/2.30af1967.chunk.js.map",
+    "static/js/2.828b46c9.chunk.js": "/My-Portfolio/static/js/2.828b46c9.chunk.js",
+    "static/js/2.828b46c9.chunk.js.map": "/My-Portfolio/static/js/2.828b46c9.chunk.js.map",
     "index.html": "/My-Portfolio/index.html",
-    "precache-manifest.dd490d16367b5fbd96d43562db22a531.js": "/My-Portfolio/precache-manifest.dd490d16367b5fbd96d43562db22a531.js",
+    "precache-manifest.c0a4bb6865e8cfbb79513041a7268af9.js": "/My-Portfolio/precache-manifest.c0a4bb6865e8cfbb79513041a7268af9.js",
     "service-worker.js": "/My-Portfolio/service-worker.js",
-    "static/css/main.aa877290.chunk.css.map": "/My-Portfolio/static/css/main.aa877290.chunk.css.map",
-    "static/js/2.30af1967.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.30af1967.chunk.js.LICENSE.txt",
+    "static/css/main.96679e9c.chunk.css.map": "/My-Portfolio/static/css/main.96679e9c.chunk.css.map",
+    "static/js/2.828b46c9.chunk.js.LICENSE.txt": "/My-Portfolio/static/js/2.828b46c9.chunk.js.LICENSE.txt",
+    "static/media/PWA.PNG": "/My-Portfolio/static/media/PWA.f7f11cf7.PNG",
     "static/media/style.css": "/My-Portfolio/static/media/bg.4a585bb7.jpg",
+    "static/media/books.PNG": "/My-Portfolio/static/media/books.37fe0da0.PNG",
     "static/media/date.png": "/My-Portfolio/static/media/date.ac5414e5.png",
     "static/media/drumming.mp4": "/My-Portfolio/static/media/drumming.81b87e28.mp4",
     "static/media/fitness.png": "/My-Portfolio/static/media/fitness.7dc238a1.png",
@@ -24,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.2dca773a.js",
-    "static/js/2.30af1967.chunk.js",
-    "static/css/main.aa877290.chunk.css",
-    "static/js/main.7a96f68d.chunk.js"
+    "static/js/2.828b46c9.chunk.js",
+    "static/css/main.96679e9c.chunk.css",
+    "static/js/main.2bff01b2.chunk.js"
   ]
 }
